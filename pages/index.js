@@ -16,8 +16,11 @@ export default function Home() {
         <Image src="/familia.png" alt="Familia Coruja" width={252} height={122} />
         <p className={styles.paragraph}>Peque<strong>Nico</strong> ao vivo na palma da sua mão!</p>
 
-        <img className={styles.video} src="http://bercario3-2.einstein24h.com.br:85/mjpg/video.mjpg"/>
-        <img className={styles.video} src="http://bercario3.einstein24h.com.br:83/mjpg/video.mjpg"/>
+        {/* <img className={styles.video} src="http://bercario3-2.einstein24h.com.br:85/mjpg/video.mjpg"/>
+        <img className={styles.video} src="http://bercario3.einstein24h.com.br:83/mjpg/video.mjpg"/> */}
+
+        <iframe className={styles.video} src="http://bercario3-2.einstein24h.com.br:85/mjpg/video.mjpg"></iframe>
+        <iframe className={styles.video} src="http://bercario3.einstein24h.com.br:83/mjpg/video.mjpg"></iframe>
 
       </main>
 
